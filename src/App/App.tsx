@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Display from "../Components/Display/Display";
+import Items from "../Features/Items/Items";
 
 function App() {
-  const isRuntime = false
-
-  return (
-    <div className="App">
-      <Display/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Items/>
+        </div>
+    );
 }
 
 export default App;

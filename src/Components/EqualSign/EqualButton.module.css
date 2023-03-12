@@ -1,0 +1,30 @@
+.EqualButtonShadow{
+    width: 240px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+
+    margin-top: 12px;
+}
+.EqualButton{
+    width: 232px;
+    height: 64px;
+
+    text-align: center;
+    padding: 24px 30px 25px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    background: #5D5FEF;
+    border-radius: 6px;
+}
