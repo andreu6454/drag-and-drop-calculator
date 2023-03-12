@@ -5,8 +5,21 @@
 }
 
 .App {
+  margin: auto;
+  width: max-content;
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Container{
+  display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+.Toggle{
+  justify-content: flex-end;
+  align-items: center;
 }
