@@ -15,8 +15,9 @@
     width: 232px;
     height: 64px;
 
-    text-align: center;
-    padding: 24px 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     font-family: 'Inter', serif;
     font-style: normal;
@@ -27,4 +28,11 @@
 
     background: #5D5FEF;
     border-radius: 6px;
+}
+.EqualButton:active{
+    background: #FFFFFF;
+    color: #000000;
+}
+.EqualButton:hover {
+    border: 2px solid #ffffff;
 }

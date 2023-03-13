@@ -36,6 +36,13 @@
     border: 1px solid #E2E3E5;
     border-radius: 6px;
 }
+.SingleNumber:hover{
+    border: 2px solid #5D5FEF;
+}
+.SingleNumber:active{
+    background: #5D5FEF;
+    color: #FFFFFF;
+}
 .DoubleNumber{
     width: 152px;
     height: 48px;
@@ -52,4 +59,11 @@
 
     border: 1px solid #E2E3E5;
     border-radius: 6px;
+}
+.DoubleNumber:hover{
+    border: 2px solid #5D5FEF;
+}
+.DoubleNumber:active{
+    background: #5D5FEF;
+    color: #FFFFFF;
 }

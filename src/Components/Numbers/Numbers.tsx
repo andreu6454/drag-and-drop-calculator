@@ -2,8 +2,9 @@ import React from 'react';
 import styles from './Numbers.module.css'
 
 const Numbers = () => {
+
     return (
-        <div draggable={true} className={styles.NumbersShadow}>
+        <div draggable className={styles.NumbersShadow}>
             <div className={styles.Numbers}>
                 <div className={styles.SingleNumber}>
                     1

@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: center;
 }
+.bgColor{
+    background-color: #F0F9FF;
+}
 .ConstructorTitle{
     font-family: 'Inter', serif;
     font-style: normal;

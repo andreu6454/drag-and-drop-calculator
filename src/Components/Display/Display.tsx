@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Display.module.css'
+import {useAppSelector} from "../../Store/Store";
 
 const Display = () => {
+    const count = useAppSelector(state => state.constructorItems.value)
+
     return (
-        <div draggable={true} className={styles.displayShadow}>
+        <div draggable className={styles.displayShadow}>
             <div className={styles.display}>
-                0
+                {count}
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import styles from './Operators.module.css'
 
 const Operators = () => {
     return (
-        <div draggable={true} className={styles.OperatorsShadow}>
+        <div draggable className={styles.OperatorsShadow}>
             <div className={styles.Operators}>
                 <div className={styles.OperatorsItem}>
                     /
