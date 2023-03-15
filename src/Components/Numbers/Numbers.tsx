@@ -4,7 +4,7 @@ import styles from './Numbers.module.css'
 const Numbers = () => {
 
     return (
-        <div draggable className={styles.NumbersShadow}>
+        <div className={styles.NumbersShadow}>
             <div className={styles.Numbers}>
                 <div className={styles.SingleNumber}>
                     1

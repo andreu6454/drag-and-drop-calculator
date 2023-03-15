@@ -6,7 +6,7 @@ const Display = () => {
     const count = useAppSelector(state => state.constructorItems.value)
 
     return (
-        <div draggable className={styles.displayShadow}>
+        <div className={styles.displayShadow}>
             <div className={styles.display}>
                 {count}
             </div>
